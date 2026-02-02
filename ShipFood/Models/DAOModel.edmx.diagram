@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="97fcfbd62a894e27ae719055e57e17bb" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="dbFoodyModel.tbAdmin" Width="1.5" PointX="3" PointY="14.375" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbChiTietDonHang" Width="1.5" PointX="9.75" PointY="9.5" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbDanhGia" Width="1.5" PointX="12" PointY="9.625" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbDanhMuc" Width="1.5" PointX="3" PointY="17" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbDonHang" Width="1.5" PointX="7.5" PointY="5.875" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbKhachHang" Width="1.5" PointX="3" PointY="3.625" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbKhuyenMai" Width="1.5" PointX="5.25" PointY="6.75" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbLoaiHinhThanhToan" Width="1.5" PointX="5.25" PointY="14.375" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbMonAn" Width="1.5" PointX="5.25" PointY="10.5" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbMonAnKhuyenMai" Width="1.5" PointX="7.5" PointY="11.75" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbQuanAn" Width="1.5" PointX="3" PointY="10.5" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbShipper" Width="1.5" PointX="3" PointY="6.625" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbThongTinDatHang" Width="1.5" PointX="5.25" PointY="3.25" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbTinNhan" Width="1.5" PointX="9.75" PointY="6" />
+        <EntityTypeShape EntityType="dbFoodyModel.tbUser" Width="1.5" PointX="0.75" PointY="8" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbAdmin__userid__6B24EA82" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbChiTiet__mamon__6C190EBB" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbChiTietD__madh__6D0D32F4" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbDanhGia__mactd__6E01572D" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbMonAn__madanhm__74AE54BC" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbDonHang__hinht__6EF57B66" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbDonHang__makhu__6FE99F9F" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbDonHang__maqua__70DDC3D8" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbDonHang__mashi__71D1E811" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbDonHang__mattd__72C60C4A" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbTinNhan__madh__7B5B524B" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbKhachHa__useri__73BA3083" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbThongTi__useri__7A672E12" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbTinNhan__makh__7C4F7684" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbMonAnKhu__makm__778AC167" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbMonAn__maquana__75A278F5" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbMonAnKh__mamon__76969D2E" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbQuanAn__userid__787EE5A0" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbShipper__useri__797309D9" />
+        <AssociationConnector Association="dbFoodyModel.FK__tbTinNhan__mashi__7D439ABD" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
